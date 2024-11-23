@@ -1,0 +1,6 @@
+import math
+print("Enter the side: ");
+s = float(input())
+area = (6 * math.pow(s, 2)) / (4 * math.tan(math.pi / 6))
+# Display result
+print("The area of the hexagon is %4.2f\n" % area);
